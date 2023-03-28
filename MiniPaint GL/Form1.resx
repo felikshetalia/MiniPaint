@@ -1,0 +1,527 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolsLabel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>53, 28</value>
+  </data>
+  <data name="&gt;&gt;drawingArea.Name" xml:space="preserve">
+    <value>drawingArea</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="brushToolButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAAHlJREFUOE/Nz+EKgCAMRtG9//MWYayskVrKZ8rmDy8MBOcByQ9uLpCI0sTUIMIk
+        FfjF5gEdn+H0hDCpG0TAxkc4vXWBEUNoWRMsMZmdwyXoF0RYq+qGBpPglhaTss3VsQmTsm0rJqUXIzCp
+        Ci739zVB0JLtNWgw6P0FxaJ6hsKZN54AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;drawingArea.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="coloursPanel.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 29</value>
+  </data>
+  <data name="rectangleButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="&gt;&gt;coloursPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms.Primitives" name="System.Windows.Forms.Primitives, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="drawingArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="deleteButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAAYJJREFUOE/tlE+rAWEUxqes2FgrKRulRGkWZoUFsxBLn8BGaTZKSj6ChbJSRDOa
+        7FCy8AWs7GU1ZWmhfIDnds5956UYl7u7dZ869Zx/v+Z9mxkFL3S5XDAejzGZTDgsyxIdb3kCF4sFFEV5
+        GqfTSUw9yhNIi6FQSGTful6vXE8kEqLyKAnc7XYYjUYwTROz2YwXK5UKlssl5xSbzQbRaBQ+nw+r1QrT
+        6RTD4RCO4wjKHdA9zm8iHA4LigBqmvZ08JNot9s3YK1Wk9BkMolSqQRd1zkKhQLy+TxHsViU9XK5jEgk
+        wjs0MxgMbkDS+XzmJt3Zu2o2m7xzL5kdj0du0uWTAoEAer0e+3g8zqcgVatVZDIZ9vV6/X0geXoC1+dy
+        OfapVAp+v5/9x8BWqyU93RNJVVUEg0H2/0DWHwc2Gg3p3XcvFotJyEvg4XDg5nw+57zf72O/37Onn+t2
+        u2W/Xq9h2zZ7wzC8ge6n1+12ReVnZbNZbyApnU7zwCfR6XTENgn4AoqFU/39vkGMAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="saveToolButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnENG.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="&gt;&gt;colorBtn.Name" xml:space="preserve">
+    <value>colorBtn</value>
+  </data>
+  <data name="&gt;&gt;btnPOL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;brushToolButton.Name" xml:space="preserve">
+    <value>brushToolButton</value>
+  </data>
+  <data name="toolStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>0, 0, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;saveLabel.Name" xml:space="preserve">
+    <value>saveLabel</value>
+  </data>
+  <data name="saveToolButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="toolThicknessComboBox.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolThicknessComboBox.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolsLabel.Name" xml:space="preserve">
+    <value>toolsLabel</value>
+  </data>
+  <data name="groupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="toolThicknessComboBox.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ellipseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChosenColour.Text" xml:space="preserve">
+    <value>Chosen colour</value>
+  </data>
+  <data name="groupBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>103, 677</value>
+  </data>
+  <data name="&gt;&gt;drawingArea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChosenColour.Name" xml:space="preserve">
+    <value>ChosenColour</value>
+  </data>
+  <data name="coloursPanel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>99, 643</value>
+  </data>
+  <data name="loadToolButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="ellipseButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAAGZJREFUOE/ljkEOwCAIBPn/p2k5tEEcSCUe2nSSPai7E0U383GhiGAq8JUkFGK4
+        fTIwqt59ygoVtJmEq6CwK7vw+78Kja407ibhipQ2w9oXfClS9XAVB1mI/BsnJLFU1K8N3i5UPQAAoT8I
+        3+A5EwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;loadToolButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ellipseButton.Name" xml:space="preserve">
+    <value>ellipseButton</value>
+  </data>
+  <data name="btnPOL.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="ToolThicknessLabel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>87, 28</value>
+  </data>
+  <data name="brushToolButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Name" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="groupBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="toolThicknessComboBox.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="coloursPanel.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="toolThicknessComboBox.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rectangleButton.Name" xml:space="preserve">
+    <value>rectangleButton</value>
+  </data>
+  <data name="toolThicknessComboBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>121, 33</value>
+  </data>
+  <data name="drawingArea.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="rectangleButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAAC1JREFUOE9j+E9lMEQMZGBgoAqmvYHkglEDRw0kAwxhAynFtDOQmmCwG/j/PwAJ
+        DOtNAKAwPQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;toolsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brushToolButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>10, 25</value>
+  </data>
+  <data name="brushToolButton.Text" xml:space="preserve">
+    <value>Brush</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="colorBtn.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="rectangleButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;loadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolsLabel.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="rectangleButton.ToolTipText" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>963, 33</value>
+  </data>
+  <data name="coloursPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;coloursPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="loadLabel.Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="ellipseButton.Text" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="saveToolButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="saveLabel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>49, 28</value>
+  </data>
+  <data name="loadLabel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>51, 28</value>
+  </data>
+  <data name="&gt;&gt;saveToolButton.Name" xml:space="preserve">
+    <value>saveToolButton</value>
+  </data>
+  <data name="loadToolButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;btnPOL.Name" xml:space="preserve">
+    <value>btnPOL</value>
+  </data>
+  <data name="&gt;&gt;saveToolButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolThicknessLabel.Name" xml:space="preserve">
+    <value>ToolThicknessLabel</value>
+  </data>
+  <data name="&gt;&gt;saveLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageLabel.Name" xml:space="preserve">
+    <value>languageLabel</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnENG.Name" xml:space="preserve">
+    <value>btnENG</value>
+  </data>
+  <data name="&gt;&gt;drawingArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolThicknessLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ToolThicknessLabel.Text" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="ellipseButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="ellipseButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="ChosenColour.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>126, 28</value>
+  </data>
+  <data name="coloursPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnENG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChosenColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip.Text" xml:space="preserve">
+    <value>toolStrip</value>
+  </data>
+  <data name="deleteButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Name" xml:space="preserve">
+    <value>deleteButton</value>
+  </data>
+  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>89, 28</value>
+  </data>
+  <data name="groupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="groupBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>861, 47</value>
+  </data>
+  <data name="loadToolButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="drawingArea.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>853, 677</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadLabel.Name" xml:space="preserve">
+    <value>loadLabel</value>
+  </data>
+  <data name="groupBox.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mini Paint</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>963, 735</value>
+  </data>
+  <data name="saveLabel.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;brushToolButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
+    <value>toolStrip</value>
+  </data>
+  <data name="drawingArea.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;toolThicknessComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rectangleButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drawingArea.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 47</value>
+  </data>
+  <data name="coloursPanel.AutoScroll" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;languageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loadToolButton.Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="groupBox.Text" xml:space="preserve">
+    <value>Colours</value>
+  </data>
+  <data name="&gt;&gt;coloursPanel.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="toolThicknessComboBox.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="saveToolButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 28</value>
+  </data>
+  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;coloursPanel.Name" xml:space="preserve">
+    <value>coloursPanel</value>
+  </data>
+  <data name="colorBtn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing.Primitives">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStrip.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;loadToolButton.Name" xml:space="preserve">
+    <value>loadToolButton</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;toolThicknessComboBox.Name" xml:space="preserve">
+    <value>toolThicknessComboBox</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>pl</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+</root>
